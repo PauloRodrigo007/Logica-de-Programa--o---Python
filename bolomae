@@ -1,0 +1,9 @@
+#bolo noite 125= 1kg
+#entrada de dados
+bolokg=float(input('insira o peso do bolo em kg: '))
+bologm=float(input('insira o peso do bolo em grama: '))
+#processamento
+pesobolo= float(bolokg+(bologm/1000))
+preco= float(pesobolo*125)
+#saida
+print(f'o valor do bolo é {preco:.2f}')

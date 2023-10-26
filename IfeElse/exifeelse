@@ -1,0 +1,9 @@
+#Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+#entrada de dados
+letra=str(input('insira uma letra'))
+vogal= a,e,i,o,u
+#processamento
+if letra:=vogal:
+ print('essa letra é uma vogal')
+else:
+  print('essa letra é uma consoante')

@@ -1,0 +1,13 @@
+from datetime import date 
+contmaior=0
+contmenor=0
+atual=date.today().year
+for c in range(0,8,1):
+    c=int(input('digite o ano de nascimento: '))
+    
+    if (c<2023):
+        contmaior= contmaior+1
+        
+    else:
+        contmenor=contmenor+1
+print(f'{contmaior} são maiores de idade,{contmenor} são menores de idade')         

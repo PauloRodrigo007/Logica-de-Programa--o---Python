@@ -1,0 +1,12 @@
+#escreva um texto com saida 'a funcionaria maria da silva , sexo feminino,ganha 4560.90 e tem 32 anos '.
+
+
+#entrada de dados
+nome= ('maria da silva')
+sexo= ('feminino')
+salario= float( 4560.90)
+idade= int (32)
+#saida
+print(f'a funcionaria {nome},do sexo {sexo},ganha {salario:.5f} e tem {idade}')
+print('a funcionaria {:s},do sexo {:s},ganha {:.2f} e tem {:d}'.format(nome,sexo,salario,idade))
+print('a funcionaria',nome,'do sexo',sexo,'ganha',salario,'e tem',idade,'anos')

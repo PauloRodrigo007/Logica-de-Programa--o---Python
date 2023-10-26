@@ -1,0 +1,13 @@
+'''Faça um programa que receba um número de 1 a 12 e ao final escreva o mês por 
+extenso correspondente ao número digitado. Se o número estiver fora do intervalo 
+informe: “Mês inválido”'''
+
+n= int (input('informe o numero do mês:\n'))
+if n==1:
+    print('janeiro')
+elif n==2:
+    print('fevereiro')
+elif n == 3:
+    print('março')    
+else:
+    print('mes invalido')        

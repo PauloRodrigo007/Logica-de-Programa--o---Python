@@ -1,0 +1,9 @@
+#ENTRADA DE DADOS
+hora= int (input('insira a hora do dia '))
+#processamento de dados
+if hora < 12:
+    print('bom dia')
+elif hora < 18:
+    print('boa tarde')
+else: 
+    print('boa noite')        

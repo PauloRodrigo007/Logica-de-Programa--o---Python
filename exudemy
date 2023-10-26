@@ -1,0 +1,3 @@
+x= float(input('insira o valor de x: '))
+x= (x*633)
+print("{:.2f}".format(x))

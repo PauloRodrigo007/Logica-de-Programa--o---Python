@@ -1,0 +1,7 @@
+#entrada
+hora= int(input('digite apenas a hora do dia: '))
+ #processamento
+if hora < 12:
+  print(f'bom dia,são {hora} horas')
+else: 
+   print(f'boa tarde, são {hora} horas')

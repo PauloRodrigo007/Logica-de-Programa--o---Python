@@ -1,0 +1,14 @@
+'''Elabore um programa que receba dois valores inteiros, exiba a soma e a multiplicação entre 
+eles. A soma só deverá ser exibida se o primeiro valor for superior a 10.'''        
+
+x=int(input('sigite o valor de x:\n'))
+y=int(input('sigite o valor de y:\n'))     
+
+if x > 10 :
+    soma=x+y
+    print(f'soma é {soma}')
+else:
+    soma='valor invalido'
+
+mult=x*y
+print(f'multiplicacao entre eles é {mult}')

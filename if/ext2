@@ -1,0 +1,12 @@
+'''Faça um programa que receba dois valores inteiros, exiba a soma entre eles se o primeiro 
+valor for maior que o segundo e em caso contrário a multiplicação'''    
+
+x=int(input('digite o valor de x:\n'))
+y=int(input('digite o valor de y:\n'))
+
+if x>y :
+    soma=x+y
+    print(f'a soma é {soma}')
+else :
+    mult=x*y
+    print(f'multiploicacao é {mult}')    

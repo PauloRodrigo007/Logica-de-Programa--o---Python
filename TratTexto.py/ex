@@ -1,0 +1,9 @@
+'''Faça um programa que receba uma data em uma variável tipo str no formato “DD/MM/AAAA” 
+e calcule a soma do DD+MM+AAAA e exiba na tela. '''
+
+data=input('insira uma data:\n')
+dia=int(data[0:2])
+mes=int(data[3:5])
+ano=int(data[6:])
+soma= dia + mes + ano
+print(soma)

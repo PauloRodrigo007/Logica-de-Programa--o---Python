@@ -1,0 +1,5 @@
+apt= int (input('insira a quantidade de apartamentos: '))
+conta_energia= float (input('insira o valor da conta de energia: '))
+conta_agua= float (input('insira o valor da conta de agua: '))
+valor_rateio_apto= float (conta_energia+conta_agua)/apt
+print(valor_rateio_apto)
